@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/styles.css">
+
+    <title>Document</title>
+
+    <style>
+        header .header-section2 a {
+            font-size: 12px;
+            font-weight: 550;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-section">
+            <a href="index.html">ONEPIRATE</a>
+            <div class="header-section2">
+                <a href="signin.html">SIGN IN</a>
+                <a href="signup.html" style="color: #FF3366;">SIGN UP</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class=" signup-section">
+            <h2 style="margin-left: 160px;">SIGN IN</h2>
+            <form action="signup.php" method="post">
+                <label for="email" style="margin-top: 70px; margin-left: -35px;">Email*</label>
+                <input type="text" id="newUsername" name="newUsername" required>
+
+                <label for="newPassword" style="margin-left: -35px;">Password*</label>
+                <input type="password" id="newPassword" name="newPassword" required>
+
+                <input type="submit" value="SIGN IN">
+            </form>
+
+            <span class="psw"><a href="#">Forgot password?</a></span>
+        </div>
+    </main>
+
+    <div class="footer">
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #28282A;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    height: 57px;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.header-section h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 528px;
+}
+
+.header-section2 {
+    margin-left: 361px;
+}
+
+.header-section2 a {
+    font-size: 12px;
+    font-weight: 550;
+}
+
+main {
+    padding: 1em;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input {
+    margin-left: -35px;
+    width: 125%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    height: 48px;
+}
+
+input[type="submit"] {
+    background-color: #E62958;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    width: 125%;
+    margin-top: 20px;
+    height: 48px;
+}
+
+/* Style for login and signup links */
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Style for login and signup sections */
+.login-section,
+.signup-section {
+    max-width: 450px;
+    height: 530px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #FFF5F8;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    margin-top: 30px;
+    border: none;
+}
+
+span.psw {
+    display: block;
+    float: none;
+    margin-left: 150px;
+    color: rgb(66, 65, 65);
+    font-weight: 100;
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+}
+
+footer {
+    margin-top: 2000px;
+    height: 209px;
+    background-color: #FFF5F8;
+    color: #212020;
+    text-align: center;
+    padding: 1em;
+}
+
+footer img {
+    height: 1000px;
+}
+
+.footer {
+    margin-top: 800px;
+    height: 209px;
+    background-color: #FFF5F8;
+    color: #212020;
+    text-align: center;
+    padding: 1em;
+}
